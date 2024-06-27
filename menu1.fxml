@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="menuAnch" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="menu" stylesheets="@menu.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.menuController">
+   <children>
+      <Label fx:id="menuLabel1" layoutX="257.0" layoutY="14.0" prefHeight="30.0" prefWidth="117.0" text="    MENU">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="menuLabel2" layoutX="54.0" layoutY="55.0" prefHeight="37.0" prefWidth="503.0" text="INDULGE IN CULINARY EXCELLENCE: VEG AND NON-VEG DELIGHTS AWAITS">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="menuImg1" fitHeight="150.0" fitWidth="200.0" layoutX="54.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@VEG thali.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="menuImg2" fitHeight="150.0" fitWidth="162.0" layoutX="355.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Non-VEG thali.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="menuVegBtn" layoutX="101.0" layoutY="277.0" mnemonicParsing="false" onAction="#menuVegBtn" styleClass="menu-btn" stylesheets="@menu.css" text="VEG MENU">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="menuNonVegBtn" layoutX="365.0" layoutY="277.0" mnemonicParsing="false" onAction="#menuNonVegBtn" styleClass="menu-btn" stylesheets="@menu.css" text="NON-VEG MENU" />
+      <Button fx:id="nonVeglabel1" layoutX="365.0" layoutY="277.0" mnemonicParsing="false" onAction="#menuNonVegBtn" styleClass="menu-btn" stylesheets="@menu.css" text="NON-VEG MENU" />
+      <CheckBox fx:id="menuCheckBox1" layoutX="101.0" layoutY="320.0" mnemonicParsing="false" onAction="#menuCheckBox1" text="Select" />
+      <CheckBox fx:id="menuCheckBox2" layoutX="392.0" layoutY="320.0" mnemonicParsing="false" onAction="#menuCheckBox2" text="Select" />
+      <Button fx:id="menuBack2" layoutX="-6.0" layoutY="1.0" mnemonicParsing="false" onAction="#menuBack2" styleClass="menu-btn" stylesheets="@menu.css" text="Back">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

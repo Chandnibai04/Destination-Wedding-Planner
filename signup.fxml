@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="signupStack" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="595.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.signupController">
+   <children>
+      <AnchorPane fx:id="signupAnc1" prefHeight="400.0" prefWidth="494.0">
+         <children>
+            <AnchorPane fx:id="signupAnc2" prefHeight="400.0" prefWidth="304.0" styleClass="sigup" stylesheets="@signup.css">
+               <children>
+                  <ImageView fx:id="signupImg3" fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@rings_2473492.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="signupLabel1" layoutX="18.0" layoutY="218.0" text="Destination Wedding Planner ">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <TextField fx:id="signupName" layoutX="341.0" layoutY="60.0" onAction="#signupName1" prefHeight="30.0" prefWidth="220.0" promptText="Enter your name" />
+            <TextField fx:id="signupEmail" layoutX="341.0" layoutY="121.0" onAction="#signupEmail1" prefHeight="30.0" prefWidth="220.0" promptText="Enter your email" />
+            <TextField fx:id="signupPass" layoutX="341.0" layoutY="185.0" onAction="#signupPass1" prefHeight="30.0" prefWidth="220.0" promptText="Password" />
+            <TextField fx:id="signupConfirmPass" layoutX="342.0" layoutY="252.0" onAction="#signupConfirmPass1" prefHeight="30.0" prefWidth="220.0" promptText="Confirm password" />
+            <Button fx:id="signupaccount1" layoutX="342.0" layoutY="316.0" mnemonicParsing="false" onAction="#SignupBtn" prefHeight="38.0" prefWidth="220.0" styleClass="SignUp-btn" stylesheets="@signup.css" text="Sign Up Account" />
+            <Label fx:id="signupLabel2" layoutX="379.0" layoutY="14.0" prefHeight="30.0" prefWidth="128.0" text="Sign Up Account">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="passLabel1" layoutX="432.0" layoutY="224.0" text="password do not match " textFill="#dd0a0a" />
+            <Label fx:id="passLabel2" layoutX="432.0" layoutY="289.0" text="password do not match " textFill="#dd0a0a" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

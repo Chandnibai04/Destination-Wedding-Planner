@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="l_stack" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="430.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.lgController">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane fx:id="L_anch1" prefHeight="430.0" prefWidth="300.0" styleClass="left-form" stylesheets="@style.css">
+               <children>
+                  <ImageView fx:id="l_img" fitHeight="150.0" fitWidth="200.0" layoutX="64.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@rings_2473492.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="l_label" layoutX="20.0" layoutY="215.0" text="Destination wedding planner">
+                     <font>
+                        <Font name="Constantia" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="l_anch2" layoutX="300.0" prefHeight="430.0" prefWidth="300.0" styleClass="right-form" stylesheets="@style.css">
+               <children>
+                  <TextField fx:id="username" layoutX="55.0" layoutY="146.0" prefHeight="25.0" prefWidth="214.0" promptText="Username" styleClass="textfield" stylesheets="@style.css" />
+                  <PasswordField fx:id="password" layoutX="55.0" layoutY="203.0" prefHeight="25.0" prefWidth="214.0" promptText="password" styleClass="textfield" stylesheets="@style.css" />
+                  <Button fx:id="loginBtn" layoutX="45.0" layoutY="264.0" mnemonicParsing="false" onAction="#login_btn" prefHeight="49.0" prefWidth="214.0" styleClass="login-btn" stylesheets="@style.css" text="Login" />
+                  <Button fx:id="SignUpBtn" layoutX="45.0" layoutY="327.0" mnemonicParsing="false" onAction="#signupBTN" prefHeight="49.0" prefWidth="214.0" styleClass="login-btn" stylesheets="@style.css" text="Sign Up" />
+                  <Label layoutX="87.0" layoutY="49.0" prefHeight="30.0" prefWidth="127.0" text="Log In Form">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="55.0" layoutY="389.0" text="Please Enter username ans password" textFill="#e90909" visible="false" />
+                  <Label fx:id="state1" layoutX="54.0" layoutY="389.0" textFill="#fb1010" />
+
+               </children>
+
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

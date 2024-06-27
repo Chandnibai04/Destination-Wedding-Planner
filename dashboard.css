@@ -1,0 +1,17 @@
+.dash_right{
+ -fx-background-color:linear-gradient(to bottom right, #db7878,#e69b9b);
+}
+.dash-rightimg{
+-fx-background-color:linear-gradient(to bottom right,#585958,#4f534e);
+}
+.dash-btn{
+    -fx-background-color: linear-gradient(#d08787, #fb9c82);
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px
+}
+.dash-btn:hover{
+        -fx-background-color: linear-gradient(#ffaeae, #ffa189);
+
+}
