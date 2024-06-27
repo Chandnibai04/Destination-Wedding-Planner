@@ -1,0 +1,51 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 18, 2024, 4:52:45 PM
+    Author     : PMYLS
+*/
+.gradient{
+    -fx-background-color:linear-gradient(to bottom right, #db7878,#e69b9b);
+}
+.white-form{
+    -fx-background-color:#fff;
+}
+.head-label{
+    -fx-border-color: #e69b9b;
+    -fx-border-width: 0 0 0 3px;
+    -fx-padding: 0 0 0 5px;
+
+}
+.login-btn{
+    -fx-background-color: linear-gradient(#d08787, #fb9c82);
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px
+}
+.login-btn:hover{
+        -fx-background-color: linear-gradient(#ffaeae, #ffa189);
+
+}
+.textfield{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to bottom right, #db7878,#e69b9b);
+    -fx-border-width: 1px;
+}
+.textfield:focused{
+    -fx-border-width:1px;
+}
+.create-btn{
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+     -fx-border-color: #fff;
+    -fx-border-width: 1px;
+}
+.create-btn:focused{
+    -fx-background-color:#fff;
+    -fx-text-fill: #000;
+
+}

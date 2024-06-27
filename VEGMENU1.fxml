@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="vegmenuANC" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="gradient" stylesheets="@VEGMENU1.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginpage.VEGMENU1Controller">
+   <children>
+      <ImageView fx:id="VegmenuPIC1" fitHeight="141.0" fitWidth="150.0" layoutX="31.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vegmenuIMG1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="VegmenuPIC2" fitHeight="141.0" fitWidth="104.0" layoutX="248.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vegmenuIMG2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="VegmenuPIC3" fitHeight="150.0" fitWidth="200.0" layoutX="442.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vegmenuIMG3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="VegmenuPIC4" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vegmenuIMG4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="VegmenuPIC5" fitHeight="150.0" fitWidth="200.0" layoutX="250.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vegmenuIMG5.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="VegmenuPIC6" fitHeight="150.0" fitWidth="200.0" layoutX="392.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vegmenuIMG6.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="vegmenuLabel1" layoutX="35.0" layoutY="180.0" text="PANEER MANCHURIAN">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="vegmenuLabel2" layoutX="234.0" layoutY="163.0" text="FRIED MUSHROOM RICE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="vegmenuLabel3" layoutX="448.0" layoutY="172.0" text="ALFREDO PASTA">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="vegmenuLabel6" layoutX="475.0" layoutY="357.0" text="PURI CHAAT">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="vegmenuLabel5" layoutX="262.0" layoutY="365.0" text="RUSSIAN SALAD">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="vegmenuLabel4" layoutX="75.0" layoutY="365.0" text="PANEER TIKKA">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="vegbackbtn" layoutY="1.0" mnemonicParsing="false" onAction="#vegbackbtn" styleClass="vegMENU-btn" stylesheets="@VEGMENU1.css" text="Back" />
+   </children>
+</AnchorPane>

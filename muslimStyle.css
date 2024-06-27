@@ -1,0 +1,10 @@
+.Muslim{
+ -fx-background-color:linear-gradient(to bottom right, #db7878,#e69b9b);
+}
+.muslim-btn{
+   -fx-background-color: linear-gradient(#d08787, #fb9c82);
+}
+.muslim-btn:hover{
+  -fx-background-color: linear-gradient(#ffaeae, #ffa189);
+
+}

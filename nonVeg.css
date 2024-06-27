@@ -1,0 +1,12 @@
+.gradient{
+   -fx-background-color:linear-gradient(to bottom right, #db7878,#e69b9b);
+
+}
+.nonvegMENU-btn{
+    -fx-background-color: linear-gradient(#d08787, #fb9c82);
+    -fx-background-radius: 5px;
+    -fx-cursor:hand;
+}
+.nonvegMENU-btn:hover{
+   -fx-background-color: linear-gradient(#ffaeae,#ffa189);
+}
