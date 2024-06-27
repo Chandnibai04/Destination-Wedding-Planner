@@ -1,0 +1,15 @@
+.Venue-leftAnc{
+ -fx-background-color:linear-gradient(to bottom right, #db7878,#e69b9b);
+
+}
+.btn{
+-fx-background-color: linear-gradient(#d08787, #fb9c82);
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px
+}
+.btn:hover{
+        -fx-background-color: linear-gradient(#ffaeae, #ffa189);
+
+}
